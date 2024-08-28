@@ -5,7 +5,6 @@
         <OutputType>Exe</OutputType>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>Identity</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <FrameworkReference Include="Microsoft.AspNetCore.App"/>
@@ -29,7 +28,7 @@
         <Using Include="System.Threading.ExecutionContext" Alias="ExecutionContext"/>
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\Data\Identity.Data.csproj"/>
-        <ProjectReference Include="..\Services\Identity.Services.csproj"/>
+        <ProjectReference Include="..\Data\DStudio.API.Client.Identity.Data.csproj" />
+        <ProjectReference Include="..\Services\DStudio.API.Client.Identity.Services.csproj" />
     </ItemGroup>
 </Project>

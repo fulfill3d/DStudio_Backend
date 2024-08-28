@@ -16,11 +16,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DStudio.Common.Database", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DStudio.Common.Services", "Common\Services\DStudio.Common.Services.csproj", "{3B65D82E-339F-4674-BB85-CEA44B4106CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity", "API\Client\Identity\Function\Identity.csproj", "{267C9E4E-2AFB-47A4-BB0D-604097868ECD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DStudio.API.Client.Identity", "API\Client\Identity\Function\DStudio.API.Client.Identity.csproj", "{267C9E4E-2AFB-47A4-BB0D-604097868ECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Data", "API\Client\Identity\Data\Identity.Data.csproj", "{08EEB3E1-1D6C-4612-9453-4394AAF7C052}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DStudio.API.Client.Identity.Data", "API\Client\Identity\Data\DStudio.API.Client.Identity.Data.csproj", "{08EEB3E1-1D6C-4612-9453-4394AAF7C052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Services", "API\Client\Identity\Services\Identity.Services.csproj", "{27C6EEA9-EE0D-4786-8656-78606DD8B356}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DStudio.API.Client.Identity.Services", "API\Client\Identity\Services\DStudio.API.Client.Identity.Services.csproj", "{27C6EEA9-EE0D-4786-8656-78606DD8B356}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

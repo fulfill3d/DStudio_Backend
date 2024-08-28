@@ -1,4 +1,4 @@
-namespace Identity.Services.Interfaces
+namespace DStudio.API.Client.Identity.Services.Interfaces
 {
     public interface IIdentityService
     {

@@ -15,7 +15,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\..\..\Common\Services\DStudio.Common.Services.csproj" />
-      <ProjectReference Include="..\Data\Identity.Data.csproj" />
+      <ProjectReference Include="..\Data\DStudio.API.Client.Identity.Data.csproj" />
     </ItemGroup>
 
 </Project>

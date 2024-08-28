@@ -2,9 +2,9 @@ using System.Net;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;
-using Identity.Services.Interfaces;
+using DStudio.API.Client.Identity.Services.Interfaces;
 
-namespace Identity
+namespace DStudio.API.Client.Identity
 {
     public class IdentityFunction(
         ILogger<IdentityFunction> logger,

@@ -1,11 +1,11 @@
 using DStudio.Common.Core.Model;
 using DStudio.Common.Database.Models;
 using DStudio.Common.Services.Interfaces;
-using Identity.Data.Database;
-using Identity.Services.Interfaces;
+using DStudio.API.Client.Identity.Data.Database;
+using DStudio.API.Client.Identity.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Identity.Services
+namespace DStudio.API.Client.Identity.Services
 {
     public class IdentityService(
         IdentityContext dbContext,

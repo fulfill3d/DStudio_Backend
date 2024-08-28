@@ -1,8 +1,8 @@
 using Azure.Identity;
+using DStudio.Common.Database;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Identity;
-using Identity.Data;
+using DStudio.API.Client.Identity;
 
 var host = new HostBuilder()
     .ConfigureFunctionsWorkerDefaults()
