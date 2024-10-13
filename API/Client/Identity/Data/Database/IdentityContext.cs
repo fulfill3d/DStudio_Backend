@@ -1,7 +1,7 @@
 using DStudio.Common.Database.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Identity.Data.Database
+namespace DStudio.API.Client.Identity.Data.Database
 {
     public partial class IdentityContext(DbContextOptions<IdentityContext> options) : DbContext(options)
     {

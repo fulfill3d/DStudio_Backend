@@ -1,12 +1,12 @@
 using DStudio.Common.Core.Model;
+using DStudio.Common.Database;
 using DStudio.Common.Services;
 using Microsoft.Extensions.DependencyInjection;
-using Identity.Data;
-using Identity.Data.Database;
-using Identity.Services;
-using Identity.Services.Interfaces;
+using DStudio.API.Client.Identity.Data.Database;
+using DStudio.API.Client.Identity.Services;
+using DStudio.API.Client.Identity.Services.Interfaces;
 
-namespace Identity
+namespace DStudio.API.Client.Identity
 {
     public static class DepInj
     {

@@ -1,4 +1,4 @@
-namespace Identity.Data
+namespace DStudio.Common.Database
 {
     public class DatabaseOption
     {
